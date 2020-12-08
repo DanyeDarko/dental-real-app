@@ -1,0 +1,120 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dental Jayr</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- SCRIPT PARA SOLO DEJAR EL LOGO SIN TEXTBOX Y DESACTIVADO EL INICIO DE SESION -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container mlt-content ">
+
+            <div class="row">
+                <div class="col s12">
+                    <ul class="nav nav-tabs ">
+                        <!-- <li class="active"><a href="#register" data-toggle="tab"></a></li> -->
+                        <li><a href="#login" data-toggle="tab">Iniciar Sesion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- Login -->
+        <div class="tab-pane fade" id="login">
+            <!-- CONTAINER IMAGEN LOGO-->
+            <div class="container ">
+                <div class="row">
+                    <div class="col l4 offset-l4 m6 s12" data-tilt>
+                        <img class="responsive-img" src="img/sfthlth.png" alt="IMG">
+                    </div>
+                </div>
+            </div>
+            <!-- FIN IMAGEN LOGO-->
+
+
+            <div class="container mlt-content z-depth-2">
+                <div class="row">
+                    <!--FORMULARIO DE INICIO DE SESION-->
+                    <form class="col s12">
+                        <div class="row">
+
+                            <!--- CAMPO USUARIO-->
+                            <div class="input-field col s11 offset-s1 pull-s1">
+                                <i class="material-icons prefix icon-blue">mail_outline</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Usuario</label>
+                            </div>
+                            <!---FIN  CAMPO USUARIO-->
+
+                            <!--- CAMPO CONTRASEÑA-->
+                            <div class="input-field col s11 offset-s1 pull-s1">
+                                <i class="material-icons prefix icon-blue">vpn_key</i>
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Clave</label>
+                            </div>
+                            <!---FIN  CAMPO CONTRASEÑA-->
+
+                            <!--BOTON LOGIN-->
+                            <div class="col s12">
+                                <a class="waves-effect waves-light btn-small lt-register-btn"><i
+                                        class=" small material-icons  right"> arrow_forward</i>login</a>
+                            </div>
+                            <!-- FIN BOTON LOGIN-->
+
+                        </div>
+                    </form>
+                    <!-- FIN FORMULARIO DE INICIO DE SESION-->
+                </div>
+
+
+                <div class="row">
+                    <div class="col s3 m4 l3">
+                        <!-- Switch -->
+                        <div class="switch blueswitch">
+                            <label>
+                                <input type="checkbox">
+                                <span class="lever"></span> Recordar
+
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col s6 push-s3">
+                        <i class="tiny material-icons info-forgot">info_outline</i>
+                        <a href="#login" class="info-forgot">olvide la contraseña</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--   FIN Login -->
+    </main>
+    <footer>
+<a>pyra.md</a>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js "></script>
+</body>
+
+</html>
